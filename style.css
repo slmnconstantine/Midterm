@@ -45,6 +45,28 @@ body {
   display: inline-block;
   margin: 0 0 7px 1010px;
 }
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header-left-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-right-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 .navigation-bar {
   font-size: 0;
@@ -289,13 +311,13 @@ body {
   height: 580px;
 }
 
-.ai-image {
+.bg-image {
   position: relative;
   top: 140px;
   left: 130px;
 }
 
-.ai-image img {
+.bg-image img {
   display: block;
   width: 450px;
   height: auto;
@@ -614,14 +636,14 @@ body {
   position: relative;
   left: 20px;
 }
-.lower-content .speed ul {
+.lower-content .mbps ul {
   list-style: none;
   padding: 0;
   margin-top: 30px;
   display: inline-block;
 }
 
-.lower-content .speed ul li {
+.lower-content .mbps ul li {
   display: inline-block;
   padding: 20px 50px;
   border-radius: 8px;
@@ -630,13 +652,13 @@ body {
   font-size: 14px;
 }
 
-.lower-content .speed ul li:nth-child(1) {
+.lower-content .mbps ul li:nth-child(1) {
   background-color: #f4222b;
   color: #fff5f5;
 }
 
-.lower-content .speed ul li:nth-child(2),
-.lower-content .speed ul li:nth-child(3) {
+.lower-content .mbps ul li:nth-child(2),
+.lower-content .mbps ul li:nth-child(3) {
   background-color: #ffffff;
   color: #000000;
   border: 1px solid #ccc;
@@ -736,7 +758,7 @@ body {
   margin-bottom: 0;
 }
 
-.footer {
+.footer-red {
   background-color: #d61120;
   color: #ffffff;
   width: 100%;
@@ -745,34 +767,57 @@ body {
   box-sizing: border-box;
 }
 
-.footer ul {
+.footer-red ul {
   list-style: none;
   margin: 0;
   margin-left: 90px;
   padding: 0;
 }
 
-.footer ul li {
+.footer-red ul li {
   display: inline-block;
   vertical-align: middle;
   margin-right: 0;
 }
 
-.footer ul li img {
+.footer-red ul li img {
   width: 17px;
 }
 
-.footer ul li h1 {
+.footer-red ul li h1 {
   display: inline-block;
   font-weight: 400;
   font-size: 11px;
   margin: 0 0 9px 0;
 }
 
-.footer ul li h2 {
+.footer-red ul li h2 {
   display: inline-block;
   font-size: 11px;
   margin: 0 0 7px 1010px;
   font-weight: 500;
 }
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer-left-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-right-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 
